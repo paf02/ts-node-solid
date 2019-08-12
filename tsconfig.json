@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "types": ["mocha", "node", "reflect-metadata", "mongoose", "bcrypt", "express"],
+    "outDir": "dist",
+    "sourceMap": true,
+    "lib": ["es6", "dom"],
+    "moduleResolution": "node",
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "noEmitOnError": false,
+    "typeRoots": [
+      "../node_modules/@types/"
+    ],
+    "suppressImplicitAnyIndexErrors": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata" : true
+  },
+  "exclude": ["node_modules"]
+}
